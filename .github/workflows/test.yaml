@@ -12,5 +12,8 @@ jobs:
       - name: list all the files
         run: ls
 
+      - name: Current working directory
+        run: pwd
+
       - name: Run the tests
         run: ./gradlew test
